@@ -1,0 +1,23 @@
+.list-group {
+  flex-wrap: wrap;
+  .list-group-item {
+    border: none;
+  }
+}
+.card-body:empty {
+  display: none;
+}
+.pokemon_img {
+  animation: bounce 1s infinite alternate;
+}
+.card-header {
+  cursor: pointer;
+}
+@keyframes bounce {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.3);
+  }
+}
